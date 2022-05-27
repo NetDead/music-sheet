@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+WORKING_DIRECTORY=`pwd`
+node $WORKING_DIRECTORY/node_modules/webpack/bin/webpack.js serve --progress --hot --config $WORKING_DIRECTORY/config/webpack/config.dev.js
